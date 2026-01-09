@@ -6,7 +6,7 @@ import { Home, Discover, Messages, Notifications, Connections, Profile } from '.
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/orbit-social-media">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
