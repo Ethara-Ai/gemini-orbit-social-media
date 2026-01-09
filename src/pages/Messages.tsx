@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
-import { initialConversations, users, currentUser, Message } from '../data/mockData';
+import { initialConversations, users, currentUser } from '../data/mockData';
+import { Message } from '../types';
 import { ChatList } from '../components/chat/ChatList';
 import { ChatWindow } from '../components/chat/ChatWindow';
 import { Card } from '../components/ui/Card';

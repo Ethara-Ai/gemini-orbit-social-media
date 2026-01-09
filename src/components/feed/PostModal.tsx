@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Heart, MessageCircle, Share2, Send } from 'lucide-react';
-import { Post, users, currentUser } from '../../data/mockData';
+import { X, Heart, MessageCircle, Share2 } from 'lucide-react';
+import { users, currentUser } from '../../data/mockData';
+import { Post } from '../../types';
 import { Avatar } from '../ui/Avatar';
 import { Button } from '../ui/Button';
 import { formatDistanceToNow } from 'date-fns';

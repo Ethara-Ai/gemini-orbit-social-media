@@ -1,5 +1,4 @@
-import { User, Post, Notification, Conversation, Message } from '../types';
-import { v4 as uuidv4 } from 'uuid';
+import { User, Post, Notification, Conversation } from '../types';
 import { subMinutes, subHours, subDays } from 'date-fns';
 
 // Helper to get random time

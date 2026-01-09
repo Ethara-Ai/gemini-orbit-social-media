@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { format } from 'date-fns';
 import { Send, Image as ImageIcon, MoreVertical, Phone, Video } from 'lucide-react';
-import { Message, User, currentUser } from '../../data/mockData';
+import { currentUser } from '../../data/mockData';
+import { Message, User } from '../../types';
 import { Avatar } from '../ui/Avatar';
 import { Button } from '../ui/Button';
 import { cn } from '../../lib/utils';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 interface ChatWindowProps {
   partner: User;

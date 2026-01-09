@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { posts } from '../data/mockData';
-import { Card } from '../components/ui/Card';
+// Removed unused Card import
 import { PostModal } from '../components/feed/PostModal';
-import { Post } from '../data/mockData';
+import { Post } from '../types';
 import { cn } from '../lib/utils';
 import { motion } from 'framer-motion';
 

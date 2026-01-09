@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { formatDistanceToNow } from 'date-fns';
 import { Heart, MessageCircle, Share2, MoreHorizontal, Send } from 'lucide-react';
-import { Post, currentUser } from '../../data/mockData';
+import { currentUser } from '../../data/mockData';
+import { Post } from '../../types';
 import { users } from '../../data/mockData';
 import { Avatar } from '../ui/Avatar';
 import { Button } from '../ui/Button';

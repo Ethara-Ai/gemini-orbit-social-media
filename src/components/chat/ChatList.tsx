@@ -1,6 +1,7 @@
 import React from 'react';
 import { formatDistanceToNow } from 'date-fns';
-import { Conversation, users, currentUser } from '../../data/mockData';
+import { users, currentUser } from '../../data/mockData';
+import { Conversation } from '../../types';
 import { Avatar } from '../ui/Avatar';
 import { cn } from '../../lib/utils';
 import { motion } from 'framer-motion';
